@@ -1,2 +1,2 @@
-# exercise-fe-restuak
-Exercise, Exercise, Exercise, Exercise, Exercise, Exercise :)
+# Exercise FE
+Isinya cuma Exercise, Exercise, Exercise, Exercise, Exercise, dan Exercise :)
