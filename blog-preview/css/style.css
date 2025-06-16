@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap");
 
+/* =========================================================================== */
+/* NORMAL DISPLAY*/
+/* =========================================================================== */
 /* BODY*/
 .yellow-col {
   background-color: #f4d04e;
@@ -21,12 +24,12 @@
   border-radius: 20px;
   border-width: 1px;
   padding: 24px;
-    display: flex;
-    align-content: space-between;
-    align-items: stretch;
-    justify-items: stretch;
-    flex-wrap: nowrap;
-    flex-direction: column;
+  display: flex;
+  align-content: space-between;
+  align-items: stretch;
+  justify-items: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 .blog-image {
@@ -106,6 +109,9 @@
   letter-spacing: 0%;
 }
 
+/* =========================================================================== */
+/* RESPOSIVE DISPLAY */
+/* =========================================================================== */
 /* (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .blog-image-2 {
