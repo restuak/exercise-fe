@@ -1,36 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap");
 
-/* TEXT PRESET */
-.text-1 {
-  font-family: Figtree;
-  font-size: 24px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  color: #111111;
-}
-.text-2 {
-  font-family: Figtree;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  color: #111111;
-}
-.text-3 {
-  font-family: Figtree;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  color: #111111;
-}
-.text-3-bold {
-  font-family: Figtree;
-  font-size: 16px;
-  font-style: bold;
-  line-height: 150%;
-  letter-spacing: 0%;
-  color: #111111;
-}
-
 /* BODY*/
 .yellow-col {
   background-color: #f4d04e;
@@ -41,7 +10,7 @@
   padding: 5%;
 }
 
-/* KONTAINER */
+/* CONTAINER */
 .container {
   background-color: #ffffff;
   border: 1px solid #111111;
@@ -72,8 +41,8 @@
 
 /* CONTENT */
 .content: {
-  width: 279;
-  height: 173;
+  width: 279px;
+  height: 173px;
   gap: 12px;
 }
 
@@ -118,6 +87,7 @@
   font-size: 14px;
   line-height: 150%;
   letter-spacing: 0%;
+  color: #6B6B6B;
 }
 
 /* AUTHOR */
@@ -156,9 +126,33 @@
     width: 335px;
     height: 522px;
   }
-  .content {
+  .blog-image {
+    display: none;
+  }
+  .blog-image-2 {
+    display: flex;
     width: 336px;
-    height: 194px;
+    height: 200px;
+  }
+  .content-tag-text {
+    font-size: 14px;
+  }
+  .content-date {
+    font-size: 14px;
+  }
+  .content-title {
+    font-size: 24px;
+  }
+  .content-isi {
+    font-size: 16px;
+  }
+}
+
+/* (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 335px;
+    height: 522px;
   }
   .blog-image {
     display: none;
@@ -168,30 +162,44 @@
     width: 336px;
     height: 200px;
   }
-  
   .content-tag-text {
     font-size: 14px;
   }
-  
   .content-date {
     font-size: 14px;
-
   }
-  
   .content-title {
     font-size: 24px;
-
   }
-  
   .content-isi {
     font-size: 16px;
   }
 }
 
-/* (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
 /* (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .container {
+    width: 335px;
+    height: 522px;
+  }
+  .blog-image {
+    display: none;
+  }
+  .blog-image-2 {
+    display: flex;
+    width: 336px;
+    height: 200px;
+  }
+  .content-tag-text {
+    font-size: 14px;
+  }
+  .content-date {
+    font-size: 14px;
+  }
+  .content-title {
+    font-size: 24px;
+  }
+  .content-isi {
+    font-size: 16px;
+  }
 }
