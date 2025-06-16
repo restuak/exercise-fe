@@ -125,12 +125,30 @@ body {
   .image-2 {
     display: none;
   }
+  .price {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 }
 
 /* portrait tablets and large phones, 600px and up */
 @media only screen and (min-width: 600px) {
   .image-2 {
     display: none;
+  }
+  .price {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 }
 
@@ -156,10 +174,7 @@ body {
   .cart{
     width: 100%;
   }
-  .price{
-    padding-top: 0;
-    padding-bottom: 20px;
-  }
+
   .image {
     display: none;
   }
@@ -193,9 +208,14 @@ body {
   .cart{
     width: 100%;
   }
-  .price{
+  .price {
     padding-top: 0;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
   }
   .image {
     display: none;
@@ -233,6 +253,11 @@ body {
   .price{
     padding-top: 0;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
   }
   .image {
     display: none;
