@@ -1,47 +1,44 @@
 import styles from "./page.module.css";
 
-export default function BlogPrev() {
+export default function ProdPrev() {
   return (
-    <div className={styles.page}>
-      <main className={styles.container}>
-        <div className={styles.blogImage}>
-          <img src="/bp-content.png" alt="Blog Image" />
+   <div className={styles.page}>
+    <main className={styles.container}>
+        <div className={styles.image}>
+          <img src="/pp-content.png" alt="Parfume Image" />
         </div>
-        <div className={styles.blogImage2}>
-          <img src="/bp-content2.png" alt="Blog Image" />
+        <div className={styles.image2}>
+          <img src="/pp-content2.png" alt="Parfume Image" />
         </div>
+
         <div className={styles.content}>
-          <div className={styles.contentTag}>
-            <div className={styles.contentTagText}>
-              <p>Learning</p>
+            <div className={styles.category}>
+              <p>PERFUME</p>
             </div>
-          </div>
 
-          <div className={styles.contentDate}>
-            <p>Published 21 Dec 2023</p>
-          </div>
-
-          <div className={styles.contentTitle}>
-            <p>HTML & CSS foundations</p>
-          </div>
-
-          <div className={styles.contentDesc}>
-            <p>
-              These languages are the backbone of every website, defining
-              structure, content, and presentation.
-            </p>
-          </div>
-
-          <div className={styles.author}>
-            <div className={styles.authorImage}>
-              <img src="/bp-profile.png" alt="Author Image" />
+            <div className={styles.title}>
+              <p>Gabrielle Essence Eau De Parfum</p>
             </div>
-            <div className={styles.authorName}>
-              <p>Greg Hooper</p>
+
+            <div className={styles.desc}>
+              <p>
+                A floral, solar and voluptuous interpretation composed by Olivier
+                Polge, Perfumer-Creator for the House of CHANEL.
+              </p>
             </div>
-          </div>
+
+            <div className={styles.price}>
+              <div className={styles.priceAft}>$149.99</div>
+              <div className={styles.priceBef}>$169.99</div>
+            </div>
+
+            <div className={styles.cart}>
+              <img src="/pp-chart.png" alt="Chart" />
+              <div className={styles.cartText}>Adds to Cart</div>
+            </div>
         </div>
-      </main>
-    </div>
+    </main>
+  </div>
+
   );
 }
