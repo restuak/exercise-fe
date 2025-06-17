@@ -73,7 +73,7 @@ body {
   padding-bottom: 20px;
 }
 
-.price-bef {
+.priceBef {
   color: #6c7289;
   font-family: Montserrat;
   font-weight: 500;
@@ -83,7 +83,7 @@ body {
   text-decoration: line-through;
 }
 
-.price-aft {
+.priceAft {
   color: #3d8168;
   font-family: Fraunces;
   font-weight: 700;
@@ -107,7 +107,7 @@ body {
   align-content: center;
 }
 
-.cart-text {
+.cartText {
   color: #ffffff;
   font-family: Montserrat;
   font-weight: 700;
@@ -129,7 +129,7 @@ body {
 /* ========================================================================== */
 /* phones, 600px and down */
 @media only screen and (max-width: 600px) {
-  .image-2 {
+  .image2 {
     display: none;
   }
   .price {
@@ -145,7 +145,7 @@ body {
 
 /* portrait tablets and large phones, 600px and up */
 @media only screen and (min-width: 600px) {
-  .image-2 {
+  .image2 {
     display: none;
   }
   .price {
@@ -185,7 +185,7 @@ body {
   .image {
     display: none;
   }
-  .image-2 {
+  .image2 {
     display: grid;
   }
   .content {
@@ -227,7 +227,7 @@ body {
   .image {
     display: none;
   }
-  .image-2 {
+  .image2 {
     display: grid;
   }
   .content {
@@ -269,7 +269,7 @@ body {
   .image {
     display: none;
   }
-  .image-2 {
+  .image2 {
     display: grid;
   }
   .content {
