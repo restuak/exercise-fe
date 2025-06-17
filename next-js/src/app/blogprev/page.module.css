@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap");
+
+.page {
+  background-color: #f4d04e;
+  justify-items: center;
+  padding: 5%;
+}
+
+/* CONTAINER */
+.container {
+  background-color: #ffffff;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px 0px 0px #000000;
+  width: 327px;
+  height: 501px;
+  gap: 24px;
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 24px;
+  display: grid;
+}
+
+.blogImage {
+}
+
+.blogImage2 {
+}
+
+.content {
+  width: 280px;
+  height: 501px;
+}
+
+.contentTag {
+  background-color: #f4d04e;
+  width: 82px;
+  height: 29px;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-right: 0px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+}
+
+.contentTagText {
+  font-family: Figtree;
+  color: #111111;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.contentDate {
+  font-family: Figtree;
+  font-weight: 500;
+  color: #111111;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 279px;
+  padding: 10px 0px 10px 0px;
+}
+
+.contentTitle {
+  font-family: Figtree;
+  font-weight: 800;
+  color: #111111;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 279px;
+  padding: 0px 0px 10px 0px;
+}
+
+.contentDesc {
+  font-family: Figtree;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #6b6b6b;
+  width: 279px;
+  padding: 0px 0px 20px 0px;
+}
+
+/* AUTHOR */
+.author {
+  display: flex;
+  align-items: center;
+  width: 129px;
+  height: 32px;
+  gap: 12px;
+  width: 279px;
+  padding: 20px 0px 10px 0px;
+}
+
+.authorName {
+  font-family: Figtree;
+  color: #111111;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+/* =========================================================================== */
+/* HOVER*/
+/* =========================================================================== */
+.contentTitle:hover,
+.content-title:active {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+/* =========================================================================== */
+/* RESPOSIVE DISPLAY */
+/* =========================================================================== */
+/* (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .blogImage2 {
+    display: none;
+  }
+}
+
+/* (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .blogImage2 {
+    display: none;
+  }
+}
+
+/* (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 384px;
+    height: 522px;
+  }
+  .blogImage {
+    display: none;
+  }
+  .blogImage2 {
+    display: flex;
+    width: 336px;
+    height: 200px;
+  }
+  .contentTagText {
+    font-size: 14px;
+    width: 336px;
+  }
+  .contentDate {
+    font-size: 14px;
+    width: 336px;
+  }
+  .contentTitle {
+    font-size: 24px;
+    width: 336px;
+  }
+  .contentDesc {
+    font-size: 16px;
+    width: 336px;
+  }
+  .author {
+    width: 336px;
+  }
+}
+
+/* (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 384px;
+    height: 522px;
+  }
+  .blogImage {
+    display: none;
+  }
+  .blogImage2 {
+    display: flex;
+    width: 336px;
+    height: 200px;
+  }
+  .contentTagText {
+    font-size: 14px;
+    width: 336px;
+  }
+  .contentDate {
+    font-size: 14px;
+    width: 336px;
+  }
+  .contentTitle {
+    font-size: 24px;
+    width: 336px;
+  }
+  .contentDesc {
+    font-size: 16px;
+    width: 336px;
+  }
+  .author {
+    width: 336px;
+  }
+}
+
+/* (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 384px;
+    height: 522px;
+  }
+  .blogImage {
+    display: none;
+  }
+  .blogImage2 {
+    display: flex;
+    width: 336px;
+    height: 200px;
+  }
+  .contentTagText {
+    font-size: 14px;
+    width: 336px;
+  }
+  .contentDate {
+    font-size: 14px;
+    width: 336px;
+  }
+  .contentTitle {
+    font-size: 24px;
+    width: 336px;
+  }
+  .contentDesc {
+    font-size: 16px;
+    width: 336px;
+  }
+  .author {
+    width: 336px;
+  }
+}
