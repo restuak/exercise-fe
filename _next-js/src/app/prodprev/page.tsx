@@ -5,10 +5,10 @@ export default function ProdPrev() {
     <div className={styles.page}>
       <main className={styles.container}>
         <div className={styles.image}>
-          <img src="/pp-content.png" alt="Parfume Image" />
+          <img src="img-pp/pp-content.png" alt="Parfume Image" />
         </div>
         <div className={styles.image2}>
-          <img src="/pp-content2.png" alt="Parfume Image" />
+          <img src="img-pp/pp-content2.png" alt="Parfume Image" />
         </div>
 
         <div className={styles.content}>
@@ -33,7 +33,7 @@ export default function ProdPrev() {
           </div>
 
           <div className={styles.cart}>
-            <img src="/pp-chart.png" alt="Chart" />
+            <img src="img-pp/pp-chart.png" alt="Chart" />
             <div className={styles.cartText}>Adds to Cart</div>
           </div>
         </div>

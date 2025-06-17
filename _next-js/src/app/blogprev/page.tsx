@@ -5,10 +5,10 @@ export default function BlogPrev() {
     <div className={styles.page}>
       <main className={styles.container}>
         <div className={styles.blogImage}>
-          <img src="/bp-content.png" alt="Blog Image" />
+          <img src="img-bp/bp-content.png" alt="Blog Image" />
         </div>
         <div className={styles.blogImage2}>
-          <img src="/bp-content2.png" alt="Blog Image" />
+          <img src="img-bp/bp-content2.png" alt="Blog Image" />
         </div>
         <div className={styles.content}>
           <div className={styles.contentTag}>
@@ -34,7 +34,7 @@ export default function BlogPrev() {
 
           <div className={styles.author}>
             <div className={styles.authorImage}>
-              <img src="/bp-profile.png" alt="Author Image" />
+              <img src="img-bp/bp-profile.png" alt="Author Image" />
             </div>
             <div className={styles.authorName}>
               <p>Greg Hooper</p>
